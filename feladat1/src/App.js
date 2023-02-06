@@ -1,7 +1,21 @@
+import "./App.css"
+import Footer from "./Footer";
+import Content from "./Content";
+import Header from "./Header"
+import { BrowserRouter as Router } from 'react-router-dom';
+
 function App() {
   return (
-    <div>
-    </div>
+    <div className="App">
+    <Router>
+      
+      <Header />
+      
+      <Content />
+
+      <Footer />
+    </Router>
+  </div>
   );
 }
 
